@@ -108,3 +108,7 @@ html {
 
 @import "social/*.png";
 @include all-social-sprites;
+
+// font-face
+@include font-face("ModernPictogramsNormal", font-files("modernpics-webfont.ttf", "modernpics-webfont.otf", "modernpics-webfont.woff", "modernpics-webfont.eot", "modernpics-webfont.eot?#iefix", "modernpics-webfont.svg#ModernPictogramsNormal"));
+@include all-social-sprites;

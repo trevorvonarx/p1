@@ -112,3 +112,27 @@ html {
 .social-twitter {
   background-position: 0 -224px;
 }
+
+@font-face {
+  font-family: "ModernPictogramsNormal";
+  src: url('../fonts/modernpics-webfont.ttf?1346455608') format('truetype'), url('../fonts/modernpics-webfont.otf') format('opentype'), url('../fonts/modernpics-webfont.woff?1346455608') format('woff'), url('../fonts/modernpics-webfont.eot?1346455608') format('embedded-opentype'), url('../fonts/modernpics-webfont.eot?&1346455608#iefix') format('embedded-opentype'), url('../fonts/modernpics-webfont.svg?1346455608#ModernPictogramsNormal') format('svg');
+}
+.social-dribbble {
+  background-position: 0 0;
+}
+
+.social-facebook {
+  background-position: 0 -32px;
+}
+
+.social-google {
+  background-position: 0 -64px;
+}
+
+.social-social-sc805f18607 {
+  background-position: 0 -96px;
+}
+
+.social-twitter {
+  background-position: 0 -224px;
+}
