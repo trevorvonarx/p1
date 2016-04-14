@@ -1,15 +1,5 @@
-# Github repo for Project 1
+# CIT 281 Project 1 Branch
 
-# CIT Code Portfolio
-
-## My CIT Websites on UOregon.edu
-[My CIS 111 Code Portfolio](http://pages.uoregon.edu/tvonarx/281/)
-
-Check out my work
-=================
-
-Feel free to use it!
---------------------
-
-# I dont care!# trevorvonarx-cit281
-# trevorvonarx-cit281
+## This branch contains the code for the Sass
+vCard [My Sass vCard on UOregon.edu](http://
+pages.uoregon.edu/tvonarx/281/p1/sass-proj/)
