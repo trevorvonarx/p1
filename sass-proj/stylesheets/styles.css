@@ -1,0 +1,114 @@
+/* Selector Inheritance */
+.float-left, .bio img, .bio .detail {
+  float: left;
+}
+
+.box-sizing, .bio, .bio .detail, .social {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Styles */
+html {
+  height: 100%;
+  background-color: #fff;
+}
+
+/* vCard */
+.vcard {
+  width: 500px;
+  margin: 50px auto;
+  background-color: #f2f2f2;
+  border: 1px solid #e6e6e6;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.vcard ul {
+  padding: 0;
+  margin: 0;
+}
+.vcard ul li {
+  list-style: none;
+}
+
+/* Bio Section */
+.bio {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 20px;
+}
+.bio img {
+  display: block;
+  border: 5px solid #ffffff;
+}
+.bio .detail {
+  color: gray;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  width: 280px;
+}
+.bio .detail li:before {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  font-family: "ModernPictogramsNormal";
+}
+.bio .detail li.name:before {
+  content: "f";
+}
+.bio .detail li.email:before {
+  content: "m";
+}
+.bio .detail li.phone:before {
+  content: "N";
+}
+
+/* Social Section */
+.social {
+  background-color: #e6e6e6;
+  width: 100%;
+  padding: 20px;
+}
+.social ul {
+  text-align: center;
+}
+.social ul li {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+}
+.social ul li a {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.social-sprite, .social-dribbble, .social-facebook, .social-google, .social-social-sc805f18607, .social-twitter {
+  background-image: url('../images/social-sf01c460a87.png');
+  background-repeat: no-repeat;
+}
+
+.social-dribbble {
+  background-position: 0 0;
+}
+
+.social-facebook {
+  background-position: 0 -32px;
+}
+
+.social-google {
+  background-position: 0 -64px;
+}
+
+.social-social-sc805f18607 {
+  background-position: 0 -96px;
+}
+
+.social-twitter {
+  background-position: 0 -224px;
+}
